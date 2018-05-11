@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <h1>Contents of {{ path }}:</h1>
+    <ul>
+      <li><a href="..">..</a></li>
+      {% for item in folders %}
+      <li><a href="/flister{{ path }}/{{ item }}/">{{ item }}</a></li>
+      {% endfor %}
+      {% for item in files %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
