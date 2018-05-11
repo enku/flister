@@ -15,4 +15,7 @@ setup(
         'flister': ['flister/templates/listing.html'],
     },
     license='BSD',
+    install_requires=[
+        'django',
+    ]
 )
