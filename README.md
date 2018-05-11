@@ -12,7 +12,7 @@ $ pip install -e .
 $ cd filebrowser
 ```
 
-Then:
+Then
 
     1. Edit `filebrowser/settings.py`
     2. Add `flister` to `INSTALLED_APPS`
